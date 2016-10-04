@@ -125,8 +125,7 @@ class JMprogressView: UIView {
         let jmview = self.stopanimationjm(pview)
         
         if jmview != nil {
-            
-            jmview?.removeFromSuperview()
+
             jmview?.hide()
             
             
@@ -134,13 +133,6 @@ class JMprogressView: UIView {
 
         
     }
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
 
 }
 

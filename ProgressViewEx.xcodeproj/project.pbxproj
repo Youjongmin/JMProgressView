@@ -14,6 +14,8 @@
 		E8DF33E31D9D3AEF000F013D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DF33E11D9D3AEF000F013D /* LaunchScreen.storyboard */; };
 		E8DF33EE1D9D3AEF000F013D /* ProgressViewExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF33ED1D9D3AEF000F013D /* ProgressViewExTests.swift */; };
 		E8DF33F91D9D3AEF000F013D /* ProgressViewExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF33F81D9D3AEF000F013D /* ProgressViewExUITests.swift */; };
+		E8DF34091D9D3B2E000F013D /* JMprogressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF34071D9D3B2E000F013D /* JMprogressView.swift */; };
+		E8DF340A1D9D3B2E000F013D /* lineview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF34081D9D3B2E000F013D /* lineview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E8DF33F41D9D3AEF000F013D /* ProgressViewExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressViewExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DF33F81D9D3AEF000F013D /* ProgressViewExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewExUITests.swift; sourceTree = "<group>"; };
 		E8DF33FA1D9D3AEF000F013D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DF34071D9D3B2E000F013D /* JMprogressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMprogressView.swift; sourceTree = "<group>"; };
+		E8DF34081D9D3B2E000F013D /* lineview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lineview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		E8DF33D71D9D3AEF000F013D /* ProgressViewEx */ = {
 			isa = PBXGroup;
 			children = (
+				E8DF34061D9D3B00000F013D /* progress */,
 				E8DF33D81D9D3AEF000F013D /* AppDelegate.swift */,
 				E8DF33DA1D9D3AEF000F013D /* ViewController.swift */,
 				E8DF33DC1D9D3AEF000F013D /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				E8DF33FA1D9D3AEF000F013D /* Info.plist */,
 			);
 			path = ProgressViewExUITests;
+			sourceTree = "<group>";
+		};
+		E8DF34061D9D3B00000F013D /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF34071D9D3B2E000F013D /* JMprogressView.swift */,
+				E8DF34081D9D3B2E000F013D /* lineview.swift */,
+			);
+			name = progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DF340A1D9D3B2E000F013D /* lineview.swift in Sources */,
+				E8DF34091D9D3B2E000F013D /* JMprogressView.swift in Sources */,
 				E8DF33DB1D9D3AEF000F013D /* ViewController.swift in Sources */,
 				E8DF33D91D9D3AEF000F013D /* AppDelegate.swift in Sources */,
 			);

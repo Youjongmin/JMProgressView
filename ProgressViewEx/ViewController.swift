@@ -20,6 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+ 
 
+    @IBAction func StartAction(_ sender: AnyObject) {
+        
+        JMprogressView.sharedInstance.showLoadingbar(self.view)
+        
+        self.perform(#selector(ViewController.StopAction), with: self, afterDelay: 5.0)
+    }
+    
+    func StopAction(){
+        JMprogressView.sharedInstance.stopanimation(self.view)
+    }
 }
 
